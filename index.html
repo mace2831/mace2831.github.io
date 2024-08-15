@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Name | Software Engineer</title>
+    <title>Aaron Maciag | Software Engineer</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -88,7 +88,7 @@
             padding: 20px;
             background-color: #333;
             color: #fff;
-            position: fixed;
+            position: relative;
             bottom: 0;
             width: 100%;
         }
@@ -105,47 +105,61 @@
     </header>
 
     <div class="container">
-        <section id="about">
-            <h2>About Me</h2>
-            <p>
-               
-            </p>
+
+
+        <section id="summary">
+            <h2>Professional Summary</h2>
+
         </section>
 
-        <section id="skills">
-            <h2>Skills</h2>
-            <ul>
-                <li>Programming Languages: JavaScript, Python, Java</li>
-                <li>Web Technologies: HTML, CSS, Angular, React, Node.js, Express</li>
-                <li>Databases: MySQL, MongoDB</li>
-                <li>Version Control: Git, GitHub</li>
-                <li>Development Tools: VS Code, Docker</li>
-            </ul>
-        </section>
+        <section id="review">
+            <h2>Code Review</h2>
+
+            <iframe width="560" height="315" src="https://www.youtube.com/watch?v=26bkHXyEBzo" 
+            title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+    </iframe>
+        </seciton>
 
         <section id="projects">
-            <h2>Projects</h2>
+            <h2>Capstone Enhancements</h2>
             <div class="project">
                 <div>
-                    <h3>Project 1</h3>
+                    <h3>Software Engineering and Design</h3>
                     <p>Brief description of the project. Highlight your role, technologies used, and key achievements.</p>
                 </div>
+                </div>
+                <div class="project">
                 <div>
-                    <h3>Project 2</h3>
-                    <p>Brief description of the project. Highlight your role, technologies used, and key achievements.</p>
+                    <h3>Algorithms and Data Structures</h3>
+                    <p>In this artifact I further refined the AnimalShelter project two from CS-340 by adding a Trie data structure
+                      to store the names of the animals in the database and offer suggestions based off of user input in the search bar.
+                      I wanted to add this because I have never worked with a Trie data structure and I wanted to add some more
+                      functionality and user friendliness to the web application. I met all the course objectives I planned to meet with
+                      this enhancment. The first enhancement I didn’t finish the authentication portion of the SPA, but I plan on adding
+                      that in on the third enhancement for the database. This process was a bit challenging as I have never implemented a
+                      Trie data structure before. I also had to learn how to create a new endpoint within the Express application in order
+                      to access the information stored in the Trie structure. When I implemented the onClick feature that takes the user to
+                      the seleceted animal’s page I had a number of isseus with trying to use the animal name rather than the rec_num. I
+                      ended up having to add in functionality to the autocomplete.js function to get the rec_num with the animal name in
+                      order to properly route the user to that selected animal’s page. There were a number of tutorials and articles on
+                      w3schools and GeeksforGeeks that were rather helpful.</p>
                 </div>
-                <div>
-                    <h3>Project 3</h3>
-                    <p>Brief description of the project. Highlight your role, technologies used, and key achievements.</p>
-                </div>
+              </div>
+
+
+            <div class="project">
+              <div>
+                  <h3>Databases</h3>
+                  <p>Brief description of the project. Highlight your role, technologies used, and key achievements.</p>
+              </div>
             </div>
         </section>
 
         <section id="contact">
             <h2>Contact</h2>
-            <p>Email: <a href="mailto:your.email@example.com">your.email@example.com</a></p>
-            <p>LinkedIn: <a href="https://www.linkedin.com/in/yourprofile">linkedin.com/in/yourprofile</a></p>
-            <p>GitHub: <a href="https://github.com/yourusername">github.com/yourusername</a></p>
+            <p>Email: <a href="mailto:aaronjmaciag@gmail.com">aaronjmaciag@gmail.com</a></p>
+            <p>LinkedIn: <a href="https://www.linkedin.com/in/aaronmaciag/">linkedin.com/in/aaronmaciag</a></p>
+            <p>GitHub: <a href="https://github.com/yourusername">github.com/mace2831</a></p>
         </section>
     </div>
 
